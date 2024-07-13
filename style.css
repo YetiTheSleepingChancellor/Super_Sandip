@@ -8,6 +8,7 @@
 /* Body */
 body {
     font-family: "Open Sans", sans-serif;
+    padding-top: 40px;
 }
 
 body, html {
@@ -15,12 +16,32 @@ body, html {
     background-color: bisque;
 }
 
+.development-banner {
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.development-banner p {
+    margin: 0;
+}
+
 .hero {
     min-height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-text h1 {
-    font-size: 4.8em;
+    font-size: 4.5em;
 }
 
 .hero-text h2 {
