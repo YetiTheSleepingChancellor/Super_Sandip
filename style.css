@@ -76,6 +76,10 @@ body, html {
 }
 
 @media (max-width:768px){
+    body {
+        padding-top: 70px;
+    }
+
     .container {
         margin-bottom: 2px;
     }
