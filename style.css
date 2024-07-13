@@ -1,0 +1,95 @@
+/* Universal Selector */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Body */
+body {
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+}
+
+body, html {
+height: 100%;
+background-color: bisque;
+}
+
+.hero {
+    min-height: 80%;
+}
+
+.hero-text h1 {
+    font-size: 4.8em;
+}
+
+.hero-text h2 {
+    font-size: 1.3em;
+}
+
+.hero-text h3 {
+    font-size: 1em;
+}
+
+.about {
+    min-height: 80%;
+    align-items: center;
+}
+
+.about-img {
+    width: 80%;
+}
+
+.project {
+    min-height: 80%;
+}
+
+.footer-bottom {
+    text-align: right;
+}
+
+@media (max-width:768px){
+    .hero {
+        text-align: center;
+        min-height: 50%;
+    }
+
+    .hero-text h1 {
+    font-size: 3.3em;
+    }
+
+    .hero-img {
+        width: 80%;
+    }
+
+    .about {
+        text-align: center;
+        min-height: auto;
+    }
+
+    .about-content {
+        text-align: left;
+        padding-top: 30px;
+    }
+
+    .about-content h1{
+        text-align: center;
+    }
+    .project {
+        text-align: center;
+        min-height: 50%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .nav-bottom {
+    text-align: center;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandip Tamang Portfolio</title>
+    <meta name="description" content="Portfolio of Sandip Tamang, a cybersecurity student with skills in web development and design.">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <nav id="hero" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#top"><img src="img/digitaldreamer-01.png" alt="Digital Dreamer Logo" width="50px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                </ul>
+            </div>
+            <div class="ml-auto d-none d-lg-block">
+                <a href="#" class="btn btn-primary">Hire me</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Hero Section -->
+
+    <div  class="container hero my-5">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-6 order-1 order-md-2 text-center">
+                <img src="img/digitaldreamer-01.png" alt="Digital Dreamer Logo" class="img-fluid hero-img">
+            </div>
+            <div class="col-md-6 order-2 order-md-1 hero-text">
+                <h3>Hello, I'm</h3>
+                <h1>Sandip Tamang</h1>
+                <h2>Aspiring Secure Web Developer</h2>
+                <a href="#projects" class="btn btn-primary mt-3">View My Work</a>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <!-- About Section -->
+    <div id="about" class="container my-5 about">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-6">
+                <img src="img/youtube logo-01.png" alt="Sandip Tamang" class="img-fluid rounded-circle about-img">
+            </div>
+            <div class="col-md-6 about-content">
+                <h1>About Me</h1>
+                <p>Hello, I'm Sandip Tamang, a passionate cybersecurity student with a knack for web development and design. Currently pursuing my studies in cybersecurity, I combine my technical skills in HTML, CSS, and Bootstrap with creative prowess in Adobe Illustrator and basic Photoshop.</p>
+                <p>In my portfolio, I emphasize minimalistic design principles, reflecting my cybersecurity background's focus on clarity and security. Each project showcases my ability to create intuitive, user-friendly interfaces while maintaining robust security standards.</p>
+                <p>My journey in cybersecurity has equipped me with a keen eye for detail and a commitment to delivering secure, reliable digital solutions. Whether it's crafting custom graphics or optimizing code, I strive to blend creativity with technical proficiency to meet diverse client needs.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="project" class="container my-5 project">
+        <h1>Highlighted Projects</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h3>Project 1: Title</h3>
+                        <p>Description: Brief description of the project.</p>
+                        <p>Technologies: HTML, CSS, JavaScript</p>
+                        <p>Links: 
+                            <a href="https://live-demo-link.com" target="_blank">Live Demo</a> | 
+                            <a href="https://github.com/your-repo" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card my-3">
+                    <div class="card-body">
+                        <h3>Project 2: Title</h3>
+                        <p>Description: Brief description of the project.</p>
+                        <p>Technologies: HTML, CSS, JavaScript</p>
+                        <p>Links: 
+                            <a href="https://live-demo-link.com" target="_blank">Live Demo</a> | 
+                            <a href="https://github.com/your-repo" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat similar project blocks -->
+        <div class="text-center my-3">
+            <button class="btn btn-primary">Load more</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Resume/CV</a></li>
+                        <li class="list-inline-item"><a href="#">GitHub</a></li>
+                        <li class="list-inline-item"><a href="#">YouTube</a></li>
+                        <li class="list-inline-item"><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 footer-bottom">
+                    &copy; All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuToggle = document.querySelector(".navbar-toggler");
+            const menuContent = document.querySelector(".navbar-collapse");
+
+            menuToggle.addEventListener("click", function() {
+                menuToggle.classList.toggle("active");
+                menuContent.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+</html>
