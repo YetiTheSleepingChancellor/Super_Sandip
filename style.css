@@ -8,14 +8,15 @@
 /* Body */
 body {
     font-family: "Open Sans", sans-serif;
-    margin-top: 40px;
 }
 
 body, html {
     height: 100%;
     background-color: bisque;
 }
-
+nav {
+    background-color: transparent;
+}
 .hero {
     min-height: 70%;
     display: flex;
@@ -59,8 +60,6 @@ body, html {
 }
 
 @media (max-width:768px){
-
-
     .container {
         margin-bottom: 2px;
     }
