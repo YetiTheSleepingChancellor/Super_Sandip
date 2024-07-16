@@ -28,6 +28,7 @@ body, html {
     align-items: center;
     justify-content: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .nav ul{
@@ -45,20 +46,19 @@ body, html {
     color: #f4f4f4;
     padding: 6px 11px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px #f7f7f7;
+    box-shadow: 0px 0px 3px #f4f4f4;
 }
 
 .nav a:hover {
-    background-color: #333;
     color: #FFCC66;
     transition: 0.3s ease-out;
-    box-shadow: 0px 0px 5px #FFCC66;
+    box-shadow: 0px 0px 3px #FFCC66;
 
 }
 
 #active {
     color: #FFCC66;
-    box-shadow: 0px 0px 5px #FFCC66;
+    box-shadow: 0px 0px 3px #FFCC66;
 }
 
 
@@ -67,7 +67,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: 0px 0px 3px 0px #808080;
 }
 
 .hero {
@@ -79,8 +79,8 @@ body, html {
     margin: auto;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 0px 0px 5px grey;
-    border-radius: 20px;
+    box-shadow: 0px 0px 3px #808080;
+    /* border-radius: 20px; */
     padding: 10px;
 
 }
@@ -99,25 +99,39 @@ body, html {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #FFCC66;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px grey;
+
+
 }
 
 .content h2 {
     font-size: 0.9em;
     font-weight: 300;
+    margin-top:10px;
+    color: #666666
+
 }
 
 .content h3 {
     font-size: 0.6em;
     font-weight: 300;
+    margin-bottom:10px;
+    color: #666666
+
+
 }
 
 .content p {
     padding: 10px 0px 40px 0px;
-    font-size: 0.6em
+    font-size: 0.6em;
+    color: #666666
 }
 
 .footer {
-    box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: 0px 0px 5px 0px #808080;
     background-color: #333333;
     display: flex;
     align-items: center;
@@ -136,7 +150,7 @@ body, html {
 
 .links a {
     text-decoration: none;
-    margin: 0px 4px;
+    margin: 0px 8px;
     font-size: 0.7em;
     color: #f4f4f4;
 }
@@ -151,13 +165,13 @@ body, html {
 }
 
 .btn {
-    box-shadow: 0px 0px 5px 0px grey;
+    box-shadow: 0px 0px 3px 0px #808080;
     text-decoration: none;
     font-size: 0.6em;
     padding: 6px 11px;
     border-radius: 5px;
     background-color: #333333;
-    color: #f4f4f4
+    color: #f4f4f4;
 }
 
 .btn:hover {
