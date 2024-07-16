@@ -19,7 +19,7 @@ body, html {
     min-height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15% 70% 15%;
+    grid-template-rows: 20% 65% 15%;
 }
 
 .header {
@@ -46,42 +46,44 @@ body, html {
     color: #f4f4f4;
     padding: 6px 11px;
     border-radius: 5px;
-    box-shadow: 0px 0px 3px #f4f4f4;
+    box-shadow: 0px 0px 5px #f4f4f4;
 }
 
 .nav a:hover {
     color: #FFCC66;
     transition: 0.3s ease-out;
-    box-shadow: 0px 0px 3px #FFCC66;
+    box-shadow: 0px 0px 5px #FFCC66;
 
 }
 
 #active {
     color: #FFCC66;
-    box-shadow: 0px 0px 3px #FFCC66;
+    box-shadow: 0px 0px 5px #FFCC66;
 }
 
 
 .main {
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 3px 0px #808080;
+    box-shadow: 0px 0px 5px 0px #808080;
 }
 
 .hero {
     width:90%;
     height: 90%;
-    background-color: #f4f4f4;
+    background-color: #666666;
     display: flex;
     align-self: center;
     margin: auto;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 0px 0px 3px #808080;
+    box-shadow: 0px 0px 5px #808080;
     /* border-radius: 20px; */
     padding: 10px;
+    border-radius: 5px;
+
 
 }
 
@@ -94,24 +96,22 @@ body, html {
 }
 
 .content h1 {
-    font-size: 2.0em;
+    font-size: 1.9em;
     padding: 5px 0px 5px 0px;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    background-color: #FFCC66;
-    width: 300px;
     margin: auto;
-    box-shadow: 0px 0px 10px 0px grey;
-
-
+    background-color: #FFCC66;
+    box-shadow: 0px 0px 5px 0px #666666;
+    border-radius: 5px;
 }
 
 .content h2 {
     font-size: 0.9em;
     font-weight: 300;
     margin-top:10px;
-    color: #666666
+    color: #f4f4f4;
 
 }
 
@@ -119,15 +119,15 @@ body, html {
     font-size: 0.6em;
     font-weight: 300;
     margin-bottom:10px;
-    color: #666666
+    color: #f4f4f4;
 
 
 }
 
 .content p {
-    padding: 10px 0px 40px 0px;
+    padding: 10px 0px 10px 0px;
     font-size: 0.6em;
-    color: #666666
+    color: #f4f4f4;
 }
 
 .footer {
@@ -165,7 +165,7 @@ body, html {
 }
 
 .btn {
-    box-shadow: 0px 0px 3px 0px #808080;
+    box-shadow: 0px 0px 5px 0px #f4f4f4;
     text-decoration: none;
     font-size: 0.6em;
     padding: 6px 11px;
