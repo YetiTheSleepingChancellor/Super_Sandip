@@ -5,29 +5,29 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body, html {
     height: 100%;
+    background-color: #333333;
 }
 
 .container {
     min-height: 100%;
-    background-color: #ffffff;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 15% 75% 10%
+    grid-template-rows: 15% 70% 15%;
 }
 
 .header {
-    background-color: #ffffff;
+    background-color: #333333;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex;
     flex-direction: column;
-    box-shadow: 0px 5px 0px grey;
-
 }
 
 .nav ul{
@@ -36,39 +36,52 @@ body, html {
 
 .nav li {
     list-style: none;
-
 }
 
 .nav a {
     text-decoration: none;
-    margin: 0px 10px;
+    margin: 0px 4px;
     font-size: 0.7em;
+    color: #f4f4f4;
+    padding: 6px 11px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #f7f7f7;
 }
 
 .nav a:hover {
-    border-bottom: 1px solid #333;
+    background-color: #333;
+    color: #FFCC66;
+    transition: 0.3s ease-out;
+    box-shadow: 0px 0px 5px #FFCC66;
+
 }
 
 #active {
-    border-bottom: 1px solid #333;
+    color: #FFCC66;
+    box-shadow: 0px 0px 5px #FFCC66;
 }
+
 
 .main {
     background-color: #ffffff;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 0px grey;
 }
 
 .hero {
     width:90%;
     height: 90%;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     display: flex;
     align-self: center;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
     box-shadow: 0px 0px 5px grey;
     border-radius: 20px;
+    padding: 10px;
 
 }
 
@@ -81,8 +94,11 @@ body, html {
 }
 
 .content h1 {
-    font-size: 2.2em;
-    padding: 10px 0px 10px 0px;
+    font-size: 2.0em;
+    padding: 5px 0px 5px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .content h2 {
@@ -95,12 +111,19 @@ body, html {
     font-weight: 300;
 }
 
+.content p {
+    padding: 10px 0px 40px 0px;
+    font-size: 0.6em
+}
+
 .footer {
-    background-color: white;
+    box-shadow: 0px 0px 5px 0px grey;
+    background-color: #333333;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    color: #f4f4f4
 }
 
 .links ul {
@@ -113,14 +136,31 @@ body, html {
 
 .links a {
     text-decoration: none;
-    margin: 0px 10px;
+    margin: 0px 4px;
     font-size: 0.7em;
+    color: #f4f4f4;
 }
-
 .links a:hover {
-    border-bottom: 1px solid #333;
+    color:#FFCC66;
+    
 }
 
 .rights {
     font-size: 0.7em;
+    text-align: center;
+}
+
+.btn {
+    box-shadow: 0px 0px 5px 0px grey;
+    text-decoration: none;
+    font-size: 0.6em;
+    padding: 6px 11px;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #f4f4f4
+}
+
+.btn:hover {
+    color:#FFCC66;
+    box-shadow: 0px 0px 5px 0px #FFCC66;
 }
