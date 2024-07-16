@@ -42,7 +42,7 @@ body, html {
 .nav a {
     text-decoration: none;
     margin: 0px 4px;
-    font-size: 0.7em;
+    font-size: 0.6em;
     color: #f4f4f4;
     padding: 6px 11px;
     border-radius: 5px;
@@ -178,3 +178,81 @@ body, html {
     color:#FFCC66;
     box-shadow: 0px 0px 5px 0px #FFCC66;
 }
+
+@media (min-width: 367px) and (max-width: 480px) {
+    .nav a {
+        font-size: 0.8em;
+    }
+
+    .links a {
+        font-size: 0.8em;
+    }
+
+    .rights {
+        font-size: 0.8em;
+    }
+
+    .btn {
+        font-size: 0.8em;
+    }
+
+    .hero h1 {
+        font-size: 2.2em;
+    }
+
+    .hero h2 {
+        font-size: 1em;
+    }
+
+    .hero h3 {
+        font-size: 0.7em;
+    }
+
+    .hero p {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav a {
+        font-size: 0.9em;
+    }
+
+    .links a {
+        font-size: 0.9em;
+    }
+
+    .rights {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero h2 {
+        font-size: 1.1em;
+    }
+
+    .hero h3 {
+        font-size: 0.8em;
+    }
+
+    .hero p {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjust styles for small laptops and desktops */
+}
+
+@media (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+}
+
+
