@@ -46,7 +46,7 @@ body, html {
     color: #f4f4f4;
     padding: 6px 11px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px #f4f4f4;
+    /* box-shadow: 0px 0px 5px #f4f4f4; */
 }
 
 .nav a:hover {
@@ -125,7 +125,7 @@ body, html {
 }
 
 .content p {
-    padding: 10px 0px 10px 0px;
+    margin: 10px;
     font-size: 0.6em;
     color: #f4f4f4;
 }
@@ -189,7 +189,7 @@ body, html {
     }
 
     .rights {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .btn {
@@ -248,11 +248,99 @@ body, html {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Adjust styles for small laptops and desktops */
+    .container {
+        grid-template-rows: 15% 70% 15%;
+    }
+
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav a {
+        font-size: 0.9em;
+    }
+
+    .links a {
+        font-size: 0.9em;
+    }
+
+    .rights {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .hero h2 {
+        font-size: 1.2em;
+    }
+
+    .hero h3 {
+        font-size: 0.9em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .footer {
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 1025px) {
-    /* Adjust styles for larger screens */
-}
+    .container {
+        grid-template-rows: 15% 70% 15%;
+    }
 
+    .header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .nav a {
+        font-size: 0.9em;
+    }
+
+    .links a {
+        font-size: 0.9em;
+    }
+
+    .rights {
+        font-size: 0.9em;
+    }
+
+    .btn {
+        font-size: 0.9em;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+    }
+
+    .hero h2 {
+        font-size: 1.3em;
+    }
+
+    .hero h3 {
+        font-size: 1em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+}
 
